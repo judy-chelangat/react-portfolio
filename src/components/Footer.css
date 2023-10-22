@@ -46,8 +46,12 @@ p{
     font-size: 1.2rem;
 }
 /* responsive design for mobile  */
-@media  screen and (max-width:480px) {
-    .footer-container{
-        grid-template-columns: repeat(1fr);
+@media screen and (max-width: 480px) {
+    .footer-container {
+      grid-template-columns: 1fr;
     }
-}
+    .left, .right {
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
