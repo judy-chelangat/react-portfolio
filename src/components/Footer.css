@@ -46,7 +46,7 @@ p{
     font-size: 1.2rem;
 }
 /* responsive design for mobile  */
-@media  screen and (max-width:640px) {
+@media  screen and (max-width:480px) {
     .footer-container{
         grid-template-columns: repeat(1fr);
     }
