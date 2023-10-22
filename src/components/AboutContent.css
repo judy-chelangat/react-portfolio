@@ -3,11 +3,18 @@
   text-align: left;
   width: 80%;
   position: relative;
-  opacity: 0;
-  animation: fadeInDown 2s;
+  opacity: 1;
+  animation: slideIn 2s; 
   animation-fill-mode: forwards;
 }
-
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .text-zone p {
   font-size: 16px;
   line-height: 1.5;

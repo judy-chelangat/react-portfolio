@@ -9,10 +9,18 @@ form{
     margin: auto;
     max-width: 600px;
     position: relative;
-    opacity: 0;
-    animation: fadeInDown 2s;
+    opacity: 1;
+    animation: slideIn 2s; 
     animation-fill-mode: forwards;
-}
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 form input,form textarea{
     margin-bottom: 1rem;
     padding: 10px 18px;

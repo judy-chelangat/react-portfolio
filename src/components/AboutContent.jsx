@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { React } from 'react'
 import {    
   faCss3,
   faGitAlt,
@@ -13,14 +13,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './AboutContent.css'
 
 const AboutContent= () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
-
-  useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
-  }, [])
-
   return (
     <>
       <div className="container about-page">

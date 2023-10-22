@@ -10,8 +10,8 @@
     grid-gap:40px;
     padding-bottom: 5rem;
     position: relative;
-    opacity: 0;
-    animation: fadeInDown 2s;
+    opacity: 1;
+    animation: slideIn 2s; /* Change the animation name here */
     animation-fill-mode: forwards;
 }
 .project-card{
@@ -39,6 +39,15 @@
  .pro-btns .btn{
     padding: 0.5rem 1rem;
  }
+ @keyframes slideIn {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
 /* responsive design for mobile */
 @media screen and (max-width:740px){
     .project-container{

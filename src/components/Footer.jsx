@@ -41,16 +41,16 @@ function Footer() {
             
                 <ul className='social'>
                     <li>
-                        <a href="https://linkedin.com/in/judy-chelangat-5969aa22b" target='_blank'> <FaLinkedin size={30} style={{color:'#fff',marginRight:'1rem'}}/>  </a>
+                        <a href="https://linkedin.com/in/judy-chelangat-5969aa22b" target='_blank' rel="noreferrer" > <FaLinkedin size={30} style={{color:'#fff',marginRight:'1rem'}}/>  </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/judieysiggy" target='_blank'> <FaTwitter size={30} style={{color:'#fff',marginRight:'1rem'}}/>  </a>
+                        <a href="https://twitter.com/judieysiggy" target='_blank' rel="noreferrer" > <FaTwitter size={30} style={{color:'#fff',marginRight:'1rem'}}/>  </a>
                     </li>
                     <li>
-                        <a href="https://instagram.com/_judiey_" target='_blank'> <FaInstagram size={30} style={{color:'#fff',marginRight:'1rem'}}/>  </a>
+                        <a href="https://instagram.com/_judiey_" target='_blank' rel="noreferrer"> <FaInstagram size={30} style={{color:'#fff',marginRight:'1rem'}}/>  </a>
                     </li>
                     <li>
-                        <a href="https://github.com/judy-chelangat" target='_blank'> <FaGithub size={30} style={{color:'#fff',marginRight:'1rem'}}/>  </a>
+                        <a href="https://github.com/judy-chelangat" target='_blank' rel="noreferrer"> <FaGithub size={30} style={{color:'#fff',marginRight:'1rem'}}/>  </a>
                     </li>
                 </ul>
         </div>
