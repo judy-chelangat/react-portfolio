@@ -37,7 +37,7 @@ function Footer() {
 
         <div className='right'>
             <h4> About Me </h4>
-            <p>This is me Judy sigilai.Software developer.I enjoy discussing new projects and design challenges</p>
+            <p>I enjoy discussing new projects and design challenges</p>
             
                 <ul className='social'>
                     <li>
