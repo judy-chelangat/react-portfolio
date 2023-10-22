@@ -57,7 +57,9 @@ const AboutContent= () => {
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
+      <div className="loader-container">
+        <Loader type="pacman" />
+      </div>
     </>
   )
 }
