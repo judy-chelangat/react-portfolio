@@ -48,10 +48,9 @@ p{
 /* responsive design for mobile  */
 @media screen and (max-width: 480px) {
     .footer-container {
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(1, 1fr);
     }
     .left, .right {
       text-align: center;
-      padding: 1rem 0;
     }
   }
