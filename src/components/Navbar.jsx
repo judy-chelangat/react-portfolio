@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <div className={color ? 'header header-bg':'header'}>
       <Link to='/'>
-        <h1>Porfolio</h1>
+        <h2>Judy</h2>
       </Link>
       <ul className={click?'nav-menu active':'nav-menu'}>
         <li>
@@ -37,7 +37,7 @@ function Navbar() {
             <Link to='/about'>About</Link>
         </li>
         <li>
-            <Link to='/contact'>Contact </Link>
+            <Link to='/contacts'>Contact </Link>
         </li>
       </ul>
       <div className='hamburger' onClick={handleClick}>
