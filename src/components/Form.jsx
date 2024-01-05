@@ -4,7 +4,6 @@ import emailjs from 'emailjs-com'
 
 function Form() {
   const refForm = useRef();
-
   const sendEmail =(e)=>{
      e.preventDefault()
 
@@ -32,11 +31,11 @@ function Form() {
     <div className='form'>
       <form ref={refForm} onSubmit={sendEmail}>
         <label>Your Name</label> 
-        <input type="text" name='text' required></input>
+        <input type="text" name='from_name' required></input>
         <label>Email</label>
-        <input type="email"  name='email' required></input>
+        <input type="email"   name='from_email' required></input>
         <label>Subject</label>
-        <input type="text" name='text'  required></input>
+        <input type="text"name='subject' required></input>
         <label>Message</label>
         <textarea name="message" id=""  cols="30" rows="6" placeholder='Type in your message'/>
 
